@@ -209,7 +209,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = '<b><a href="https://t.me/about_Ben">BENxMLTB</a></b>\n\n'
+    msg = '<b><a href="https://t.me/Bash_X_Bots">Bash_X_Bots</a></b>\n\n'
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
