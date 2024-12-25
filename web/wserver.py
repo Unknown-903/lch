@@ -11,14 +11,14 @@ app = Flask(__name__)
 aria2 = ariaAPI(
     ariaClient(
         host="http://localhost",
-        port=6800,
+        port=8585,
         secret=""
     )
 )
 
 xnox_client = qbClient(
     host="localhost",
-    port=8090,
+    port=8585,
     VERIFY_WEBUI_CERTIFICATE=False,
     REQUESTS_ARGS={
         "timeout": (
